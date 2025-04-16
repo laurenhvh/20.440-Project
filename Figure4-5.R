@@ -7,7 +7,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
   +     install.packages("BiocManager")
 
 # Set your file path
-data_dir <- "~/Downloads/20.440"  
+data_dir <- "~/Desktop/20.440-Project"  
 
 # Read the matrix
 counts <- readMM(file.path(data_dir, "matrix.mtx.gz"))
