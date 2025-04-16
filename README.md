@@ -5,8 +5,7 @@ Project Title: Analyzing subsets of dendritic cells involved in the development 
 ## Overview and Purpose
 
 This repository contains code and data used to generate Figure 5 from our project report draft, which shows the transcriptomic features of dendritic cells (DCs) involved in peripheral regulatory T cell (pTreg) induction, with a focus on RORγt⁺ antigen-presenting cells (APCs) identified from a single-cell RNA-seq dataset published by Rodrigues et al. (2025, Cell).
-More specifically, Figure 5 presents the results of a Gene Ontology (GO) enrichment analysis on cluster 6 — a transcriptionally distinct population of RORγt⁺ DCs — to identify biological processes that may underlie their role in T cell differentiation and oral tolerance induction. The repository contains the scRNAseq data in a separate file that can be downloaded to
-the user's personal computer, along with the R script to generate the plots as we did in R Studio. Lastly, this README.md file can be found in the repository as you just did! Whoo!
+More specifically, Figure 5 presents the results of a Gene Ontology (GO) enrichment analysis on cluster 6 — a transcriptionally distinct population of RORγt⁺ DCs — to identify biological processes that may underlie their role in T cell differentiation and oral tolerance induction. The repository contains the scRNAseq data in a separate folder that can be downloaded to the user's personal computer, along with the R script to generate the plots as we did in R Studio. Lastly, this README.md file can be found in the repository as you just did! Whoo!
 
 The overall purpose of this repository is to provide the user to download the relevant raw scRNAseq data, the R script we used, and instructions on how to replicate Figure 5 of our report.
 
