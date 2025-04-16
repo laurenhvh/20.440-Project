@@ -3,6 +3,8 @@ install.packages("Seurat")
 
 library(Matrix)
 library(Seurat)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  +     install.packages("BiocManager")
 
 # Set your file path
 data_dir <- "~/Downloads/20.440"  
